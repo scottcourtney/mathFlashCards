@@ -14,6 +14,7 @@
 		31168B5E1D883B280062B4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31168B5D1D883B280062B4E8 /* Assets.xcassets */; };
 		31168B611D883B280062B4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31168B5F1D883B280062B4E8 /* LaunchScreen.storyboard */; };
 		31168B6C1D883B290062B4E8 /* mathFlashCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31168B6B1D883B290062B4E8 /* mathFlashCardsTests.swift */; };
+		31168B781D884F730062B4E8 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31168B771D884F730062B4E8 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		31168B671D883B290062B4E8 /* mathFlashCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathFlashCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31168B6B1D883B290062B4E8 /* mathFlashCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathFlashCardsTests.swift; sourceTree = "<group>"; };
 		31168B6D1D883B290062B4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31168B771D884F730062B4E8 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31168B781D884F730062B4E8 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +67,7 @@
 				31168B521D883B280062B4E8 /* mathFlashCards */,
 				31168B6A1D883B290062B4E8 /* mathFlashCardsTests */,
 				31168B511D883B280062B4E8 /* Products */,
+				31168B761D884F720062B4E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +101,14 @@
 				31168B6D1D883B290062B4E8 /* Info.plist */,
 			);
 			path = mathFlashCardsTests;
+			sourceTree = "<group>";
+		};
+		31168B761D884F720062B4E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31168B771D884F730062B4E8 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
