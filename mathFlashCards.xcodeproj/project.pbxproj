@@ -15,6 +15,57 @@
 		31168B611D883B280062B4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31168B5F1D883B280062B4E8 /* LaunchScreen.storyboard */; };
 		31168B6C1D883B290062B4E8 /* mathFlashCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31168B6B1D883B290062B4E8 /* mathFlashCardsTests.swift */; };
 		31168B781D884F730062B4E8 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31168B771D884F730062B4E8 /* LocalAuthentication.framework */; };
+		312ED22B1D888ADC00C52D3E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312ED22A1D888ADC00C52D3E /* LoginController.swift */; };
+		312ED2581D888B8800C52D3E /* Icon-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED22E1D888B8800C52D3E /* Icon-20.png */; };
+		312ED2591D888B8800C52D3E /* Icon-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED22F1D888B8800C52D3E /* Icon-20@2x.png */; };
+		312ED25A1D888B8800C52D3E /* Icon-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2301D888B8800C52D3E /* Icon-20@3x.png */; };
+		312ED25B1D888B8800C52D3E /* Icon-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2311D888B8800C52D3E /* Icon-24.png */; };
+		312ED25C1D888B8800C52D3E /* Icon-24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2321D888B8800C52D3E /* Icon-24@2x.png */; };
+		312ED25D1D888B8800C52D3E /* Icon-24@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2331D888B8800C52D3E /* Icon-24@3x.png */; };
+		312ED25E1D888B8800C52D3E /* Icon-27.5.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2341D888B8800C52D3E /* Icon-27.5.png */; };
+		312ED25F1D888B8800C52D3E /* Icon-27.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2351D888B8800C52D3E /* Icon-27.5@2x.png */; };
+		312ED2601D888B8800C52D3E /* Icon-27.5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2361D888B8800C52D3E /* Icon-27.5@3x.png */; };
+		312ED2611D888B8800C52D3E /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2371D888B8800C52D3E /* Icon-29.png */; };
+		312ED2621D888B8800C52D3E /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2381D888B8800C52D3E /* Icon-29@2x.png */; };
+		312ED2631D888B8800C52D3E /* Icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2391D888B8800C52D3E /* Icon-29@3x.png */; };
+		312ED2641D888B8800C52D3E /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED23A1D888B8800C52D3E /* Icon-40.png */; };
+		312ED2651D888B8800C52D3E /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED23B1D888B8800C52D3E /* Icon-40@2x.png */; };
+		312ED2661D888B8800C52D3E /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED23C1D888B8800C52D3E /* Icon-40@3x.png */; };
+		312ED2671D888B8800C52D3E /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED23D1D888B8800C52D3E /* Icon-50.png */; };
+		312ED2681D888B8800C52D3E /* Icon-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED23E1D888B8800C52D3E /* Icon-50@2x.png */; };
+		312ED2691D888B8800C52D3E /* Icon-50@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED23F1D888B8800C52D3E /* Icon-50@3x.png */; };
+		312ED26A1D888B8800C52D3E /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2401D888B8800C52D3E /* Icon-512.png */; };
+		312ED26B1D888B8800C52D3E /* Icon-512@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2411D888B8800C52D3E /* Icon-512@2x.png */; };
+		312ED26C1D888B8800C52D3E /* Icon-512@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2421D888B8800C52D3E /* Icon-512@3x.png */; };
+		312ED26D1D888B8800C52D3E /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2431D888B8800C52D3E /* Icon-57.png */; };
+		312ED26E1D888B8800C52D3E /* Icon-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2441D888B8800C52D3E /* Icon-57@2x.png */; };
+		312ED26F1D888B8800C52D3E /* Icon-57@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2451D888B8800C52D3E /* Icon-57@3x.png */; };
+		312ED2701D888B8800C52D3E /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2461D888B8800C52D3E /* Icon-60.png */; };
+		312ED2711D888B8800C52D3E /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2471D888B8800C52D3E /* Icon-60@2x.png */; };
+		312ED2721D888B8800C52D3E /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2481D888B8800C52D3E /* Icon-60@3x.png */; };
+		312ED2731D888B8800C52D3E /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2491D888B8800C52D3E /* Icon-72.png */; };
+		312ED2741D888B8800C52D3E /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED24A1D888B8800C52D3E /* Icon-72@2x.png */; };
+		312ED2751D888B8800C52D3E /* Icon-72@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED24B1D888B8800C52D3E /* Icon-72@3x.png */; };
+		312ED2761D888B8800C52D3E /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED24C1D888B8800C52D3E /* Icon-76.png */; };
+		312ED2771D888B8800C52D3E /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED24D1D888B8800C52D3E /* Icon-76@2x.png */; };
+		312ED2781D888B8800C52D3E /* Icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED24E1D888B8800C52D3E /* Icon-76@3x.png */; };
+		312ED2791D888B8800C52D3E /* Icon-83.5.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED24F1D888B8800C52D3E /* Icon-83.5.png */; };
+		312ED27A1D888B8800C52D3E /* Icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2501D888B8800C52D3E /* Icon-83.5@2x.png */; };
+		312ED27B1D888B8800C52D3E /* Icon-83.5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2511D888B8800C52D3E /* Icon-83.5@3x.png */; };
+		312ED27C1D888B8800C52D3E /* Icon-86.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2521D888B8800C52D3E /* Icon-86.png */; };
+		312ED27D1D888B8800C52D3E /* Icon-86@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2531D888B8800C52D3E /* Icon-86@2x.png */; };
+		312ED27E1D888B8800C52D3E /* Icon-86@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2541D888B8800C52D3E /* Icon-86@3x.png */; };
+		312ED27F1D888B8800C52D3E /* Icon-98.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2551D888B8800C52D3E /* Icon-98.png */; };
+		312ED2801D888B8800C52D3E /* Icon-98@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2561D888B8800C52D3E /* Icon-98@2x.png */; };
+		312ED2811D888B8800C52D3E /* Icon-98@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312ED2571D888B8800C52D3E /* Icon-98@3x.png */; };
+		313546E31D8996FD00635FB7 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313546E21D8996FD00635FB7 /* BaseService.swift */; };
+		313546E51D899DEC00635FB7 /* CreateUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313546E41D899DEC00635FB7 /* CreateUserController.swift */; };
+		313546E71D89AF4D00635FB7 /* Pods_mathFlashCardsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313546E61D89AF4D00635FB7 /* Pods_mathFlashCardsTests.framework */; };
+		313546E91D89BAF100635FB7 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313546E81D89BAF100635FB7 /* QuestionViewController.swift */; };
+		313546EC1D89CABE00635FB7 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 313546EA1D89CABE00635FB7 /* correct.png */; };
+		313546ED1D89CABE00635FB7 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 313546EB1D89CABE00635FB7 /* wrong.png */; };
+		5E50F9E785470918E7F6A710 /* Pods_mathFlashCardsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D349453FAB07014AD9A876 /* Pods_mathFlashCardsTests.framework */; };
+		64F277F1DB9EDE66A035FD07 /* Pods_mathFlashCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F399D16B786142467756D4 /* Pods_mathFlashCards.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +79,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0753AC27A61443C9A6ADC62A /* Pods-mathFlashCardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mathFlashCardsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mathFlashCardsTests/Pods-mathFlashCardsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		08C6A519CE0AA599584A8754 /* Pods-mathFlashCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mathFlashCards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mathFlashCards/Pods-mathFlashCards.debug.xcconfig"; sourceTree = "<group>"; };
 		31168B501D883B280062B4E8 /* mathFlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mathFlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31168B531D883B280062B4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31168B551D883B280062B4E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +93,59 @@
 		31168B6B1D883B290062B4E8 /* mathFlashCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathFlashCardsTests.swift; sourceTree = "<group>"; };
 		31168B6D1D883B290062B4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31168B771D884F730062B4E8 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		312ED22A1D888ADC00C52D3E /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		312ED22E1D888B8800C52D3E /* Icon-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20.png"; sourceTree = "<group>"; };
+		312ED22F1D888B8800C52D3E /* Icon-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20@2x.png"; sourceTree = "<group>"; };
+		312ED2301D888B8800C52D3E /* Icon-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20@3x.png"; sourceTree = "<group>"; };
+		312ED2311D888B8800C52D3E /* Icon-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-24.png"; sourceTree = "<group>"; };
+		312ED2321D888B8800C52D3E /* Icon-24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-24@2x.png"; sourceTree = "<group>"; };
+		312ED2331D888B8800C52D3E /* Icon-24@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-24@3x.png"; sourceTree = "<group>"; };
+		312ED2341D888B8800C52D3E /* Icon-27.5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-27.5.png"; sourceTree = "<group>"; };
+		312ED2351D888B8800C52D3E /* Icon-27.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-27.5@2x.png"; sourceTree = "<group>"; };
+		312ED2361D888B8800C52D3E /* Icon-27.5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-27.5@3x.png"; sourceTree = "<group>"; };
+		312ED2371D888B8800C52D3E /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		312ED2381D888B8800C52D3E /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@2x.png"; sourceTree = "<group>"; };
+		312ED2391D888B8800C52D3E /* Icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@3x.png"; sourceTree = "<group>"; };
+		312ED23A1D888B8800C52D3E /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		312ED23B1D888B8800C52D3E /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		312ED23C1D888B8800C52D3E /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		312ED23D1D888B8800C52D3E /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		312ED23E1D888B8800C52D3E /* Icon-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50@2x.png"; sourceTree = "<group>"; };
+		312ED23F1D888B8800C52D3E /* Icon-50@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50@3x.png"; sourceTree = "<group>"; };
+		312ED2401D888B8800C52D3E /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512.png"; sourceTree = "<group>"; };
+		312ED2411D888B8800C52D3E /* Icon-512@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512@2x.png"; sourceTree = "<group>"; };
+		312ED2421D888B8800C52D3E /* Icon-512@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512@3x.png"; sourceTree = "<group>"; };
+		312ED2431D888B8800C52D3E /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
+		312ED2441D888B8800C52D3E /* Icon-57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57@2x.png"; sourceTree = "<group>"; };
+		312ED2451D888B8800C52D3E /* Icon-57@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57@3x.png"; sourceTree = "<group>"; };
+		312ED2461D888B8800C52D3E /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		312ED2471D888B8800C52D3E /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		312ED2481D888B8800C52D3E /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		312ED2491D888B8800C52D3E /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		312ED24A1D888B8800C52D3E /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		312ED24B1D888B8800C52D3E /* Icon-72@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@3x.png"; sourceTree = "<group>"; };
+		312ED24C1D888B8800C52D3E /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		312ED24D1D888B8800C52D3E /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		312ED24E1D888B8800C52D3E /* Icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@3x.png"; sourceTree = "<group>"; };
+		312ED24F1D888B8800C52D3E /* Icon-83.5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5.png"; sourceTree = "<group>"; };
+		312ED2501D888B8800C52D3E /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@2x.png"; sourceTree = "<group>"; };
+		312ED2511D888B8800C52D3E /* Icon-83.5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@3x.png"; sourceTree = "<group>"; };
+		312ED2521D888B8800C52D3E /* Icon-86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-86.png"; sourceTree = "<group>"; };
+		312ED2531D888B8800C52D3E /* Icon-86@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-86@2x.png"; sourceTree = "<group>"; };
+		312ED2541D888B8800C52D3E /* Icon-86@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-86@3x.png"; sourceTree = "<group>"; };
+		312ED2551D888B8800C52D3E /* Icon-98.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-98.png"; sourceTree = "<group>"; };
+		312ED2561D888B8800C52D3E /* Icon-98@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-98@2x.png"; sourceTree = "<group>"; };
+		312ED2571D888B8800C52D3E /* Icon-98@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-98@3x.png"; sourceTree = "<group>"; };
+		313546E21D8996FD00635FB7 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		313546E41D899DEC00635FB7 /* CreateUserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserController.swift; sourceTree = "<group>"; };
+		313546E61D89AF4D00635FB7 /* Pods_mathFlashCardsTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_mathFlashCardsTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_mathFlashCardsTests.framework"; sourceTree = "<group>"; };
+		313546E81D89BAF100635FB7 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		313546EA1D89CABE00635FB7 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		313546EB1D89CABE00635FB7 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
+		6A6BF637731777D555C6E9C3 /* Pods-mathFlashCardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mathFlashCardsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mathFlashCardsTests/Pods-mathFlashCardsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8F399D16B786142467756D4 /* Pods_mathFlashCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mathFlashCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BC98315FA0F0A65B55814B /* Pods-mathFlashCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mathFlashCards.release.xcconfig"; path = "Pods/Target Support Files/Pods-mathFlashCards/Pods-mathFlashCards.release.xcconfig"; sourceTree = "<group>"; };
+		F9D349453FAB07014AD9A876 /* Pods_mathFlashCardsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mathFlashCardsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +153,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313546E71D89AF4D00635FB7 /* Pods_mathFlashCardsTests.framework in Frameworks */,
 				31168B781D884F730062B4E8 /* LocalAuthentication.framework in Frameworks */,
+				64F277F1DB9EDE66A035FD07 /* Pods_mathFlashCards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E50F9E785470918E7F6A710 /* Pods_mathFlashCardsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +177,7 @@
 				31168B6A1D883B290062B4E8 /* mathFlashCardsTests */,
 				31168B511D883B280062B4E8 /* Products */,
 				31168B761D884F720062B4E8 /* Frameworks */,
+				83245C071752D6F3FFE8EDCC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,12 +194,13 @@
 			isa = PBXGroup;
 			children = (
 				31168B531D883B280062B4E8 /* AppDelegate.swift */,
-				31168B551D883B280062B4E8 /* ViewController.swift */,
 				31168B571D883B280062B4E8 /* Main.storyboard */,
-				31168B5D1D883B280062B4E8 /* Assets.xcassets */,
+				312ED2291D888ABD00C52D3E /* Controller */,
 				31168B5F1D883B280062B4E8 /* LaunchScreen.storyboard */,
+				313546E21D8996FD00635FB7 /* BaseService.swift */,
 				31168B621D883B280062B4E8 /* Info.plist */,
 				31168B5A1D883B280062B4E8 /* mathFlashCards.xcdatamodeld */,
+				312ED22C1D888B7400C52D3E /* Resources */,
 			);
 			path = mathFlashCards;
 			sourceTree = "<group>";
@@ -106,9 +217,94 @@
 		31168B761D884F720062B4E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				313546E61D89AF4D00635FB7 /* Pods_mathFlashCardsTests.framework */,
 				31168B771D884F730062B4E8 /* LocalAuthentication.framework */,
+				B8F399D16B786142467756D4 /* Pods_mathFlashCards.framework */,
+				F9D349453FAB07014AD9A876 /* Pods_mathFlashCardsTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		312ED2291D888ABD00C52D3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31168B551D883B280062B4E8 /* ViewController.swift */,
+				312ED22A1D888ADC00C52D3E /* LoginController.swift */,
+				313546E41D899DEC00635FB7 /* CreateUserController.swift */,
+				313546E81D89BAF100635FB7 /* QuestionViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		312ED22C1D888B7400C52D3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				313546EA1D89CABE00635FB7 /* correct.png */,
+				313546EB1D89CABE00635FB7 /* wrong.png */,
+				312ED22D1D888B8800C52D3E /* Flashcard App Icons */,
+				31168B5D1D883B280062B4E8 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		312ED22D1D888B8800C52D3E /* Flashcard App Icons */ = {
+			isa = PBXGroup;
+			children = (
+				312ED22E1D888B8800C52D3E /* Icon-20.png */,
+				312ED22F1D888B8800C52D3E /* Icon-20@2x.png */,
+				312ED2301D888B8800C52D3E /* Icon-20@3x.png */,
+				312ED2311D888B8800C52D3E /* Icon-24.png */,
+				312ED2321D888B8800C52D3E /* Icon-24@2x.png */,
+				312ED2331D888B8800C52D3E /* Icon-24@3x.png */,
+				312ED2341D888B8800C52D3E /* Icon-27.5.png */,
+				312ED2351D888B8800C52D3E /* Icon-27.5@2x.png */,
+				312ED2361D888B8800C52D3E /* Icon-27.5@3x.png */,
+				312ED2371D888B8800C52D3E /* Icon-29.png */,
+				312ED2381D888B8800C52D3E /* Icon-29@2x.png */,
+				312ED2391D888B8800C52D3E /* Icon-29@3x.png */,
+				312ED23A1D888B8800C52D3E /* Icon-40.png */,
+				312ED23B1D888B8800C52D3E /* Icon-40@2x.png */,
+				312ED23C1D888B8800C52D3E /* Icon-40@3x.png */,
+				312ED23D1D888B8800C52D3E /* Icon-50.png */,
+				312ED23E1D888B8800C52D3E /* Icon-50@2x.png */,
+				312ED23F1D888B8800C52D3E /* Icon-50@3x.png */,
+				312ED2401D888B8800C52D3E /* Icon-512.png */,
+				312ED2411D888B8800C52D3E /* Icon-512@2x.png */,
+				312ED2421D888B8800C52D3E /* Icon-512@3x.png */,
+				312ED2431D888B8800C52D3E /* Icon-57.png */,
+				312ED2441D888B8800C52D3E /* Icon-57@2x.png */,
+				312ED2451D888B8800C52D3E /* Icon-57@3x.png */,
+				312ED2461D888B8800C52D3E /* Icon-60.png */,
+				312ED2471D888B8800C52D3E /* Icon-60@2x.png */,
+				312ED2481D888B8800C52D3E /* Icon-60@3x.png */,
+				312ED2491D888B8800C52D3E /* Icon-72.png */,
+				312ED24A1D888B8800C52D3E /* Icon-72@2x.png */,
+				312ED24B1D888B8800C52D3E /* Icon-72@3x.png */,
+				312ED24C1D888B8800C52D3E /* Icon-76.png */,
+				312ED24D1D888B8800C52D3E /* Icon-76@2x.png */,
+				312ED24E1D888B8800C52D3E /* Icon-76@3x.png */,
+				312ED24F1D888B8800C52D3E /* Icon-83.5.png */,
+				312ED2501D888B8800C52D3E /* Icon-83.5@2x.png */,
+				312ED2511D888B8800C52D3E /* Icon-83.5@3x.png */,
+				312ED2521D888B8800C52D3E /* Icon-86.png */,
+				312ED2531D888B8800C52D3E /* Icon-86@2x.png */,
+				312ED2541D888B8800C52D3E /* Icon-86@3x.png */,
+				312ED2551D888B8800C52D3E /* Icon-98.png */,
+				312ED2561D888B8800C52D3E /* Icon-98@2x.png */,
+				312ED2571D888B8800C52D3E /* Icon-98@3x.png */,
+			);
+			path = "Flashcard App Icons";
+			sourceTree = "<group>";
+		};
+		83245C071752D6F3FFE8EDCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08C6A519CE0AA599584A8754 /* Pods-mathFlashCards.debug.xcconfig */,
+				C4BC98315FA0F0A65B55814B /* Pods-mathFlashCards.release.xcconfig */,
+				0753AC27A61443C9A6ADC62A /* Pods-mathFlashCardsTests.debug.xcconfig */,
+				6A6BF637731777D555C6E9C3 /* Pods-mathFlashCardsTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,9 +314,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31168B701D883B290062B4E8 /* Build configuration list for PBXNativeTarget "mathFlashCards" */;
 			buildPhases = (
+				962B1B1610F131215CA9CE0A /* [CP] Check Pods Manifest.lock */,
 				31168B4C1D883B280062B4E8 /* Sources */,
 				31168B4D1D883B280062B4E8 /* Frameworks */,
 				31168B4E1D883B280062B4E8 /* Resources */,
+				67BC993C8F731C5C50A3A9EC /* [CP] Embed Pods Frameworks */,
+				C661B745C40318193F02B22A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +334,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31168B731D883B290062B4E8 /* Build configuration list for PBXNativeTarget "mathFlashCardsTests" */;
 			buildPhases = (
+				7AFF321E6F701ADD71D8A5CA /* [CP] Check Pods Manifest.lock */,
 				31168B631D883B290062B4E8 /* Sources */,
 				31168B641D883B290062B4E8 /* Frameworks */,
 				31168B651D883B290062B4E8 /* Resources */,
+				DC4F40DFE9AB985C39266EB3 /* [CP] Embed Pods Frameworks */,
+				4E2E77135D00F58F47B75482 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +398,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312ED2691D888B8800C52D3E /* Icon-50@3x.png in Resources */,
+				312ED27A1D888B8800C52D3E /* Icon-83.5@2x.png in Resources */,
+				312ED2791D888B8800C52D3E /* Icon-83.5.png in Resources */,
+				312ED26B1D888B8800C52D3E /* Icon-512@2x.png in Resources */,
+				312ED27F1D888B8800C52D3E /* Icon-98.png in Resources */,
+				312ED26F1D888B8800C52D3E /* Icon-57@3x.png in Resources */,
+				312ED27B1D888B8800C52D3E /* Icon-83.5@3x.png in Resources */,
+				312ED2651D888B8800C52D3E /* Icon-40@2x.png in Resources */,
+				312ED2811D888B8800C52D3E /* Icon-98@3x.png in Resources */,
+				312ED2711D888B8800C52D3E /* Icon-60@2x.png in Resources */,
+				312ED2621D888B8800C52D3E /* Icon-29@2x.png in Resources */,
+				312ED2721D888B8800C52D3E /* Icon-60@3x.png in Resources */,
+				312ED27C1D888B8800C52D3E /* Icon-86.png in Resources */,
+				312ED2681D888B8800C52D3E /* Icon-50@2x.png in Resources */,
+				312ED2601D888B8800C52D3E /* Icon-27.5@3x.png in Resources */,
 				31168B611D883B280062B4E8 /* LaunchScreen.storyboard in Resources */,
+				312ED2741D888B8800C52D3E /* Icon-72@2x.png in Resources */,
+				312ED2781D888B8800C52D3E /* Icon-76@3x.png in Resources */,
+				312ED2661D888B8800C52D3E /* Icon-40@3x.png in Resources */,
+				312ED25D1D888B8800C52D3E /* Icon-24@3x.png in Resources */,
+				312ED25F1D888B8800C52D3E /* Icon-27.5@2x.png in Resources */,
+				312ED26D1D888B8800C52D3E /* Icon-57.png in Resources */,
+				312ED26E1D888B8800C52D3E /* Icon-57@2x.png in Resources */,
+				312ED2611D888B8800C52D3E /* Icon-29.png in Resources */,
+				312ED26C1D888B8800C52D3E /* Icon-512@3x.png in Resources */,
+				312ED2771D888B8800C52D3E /* Icon-76@2x.png in Resources */,
 				31168B5E1D883B280062B4E8 /* Assets.xcassets in Resources */,
+				312ED2671D888B8800C52D3E /* Icon-50.png in Resources */,
+				313546EC1D89CABE00635FB7 /* correct.png in Resources */,
+				312ED2731D888B8800C52D3E /* Icon-72.png in Resources */,
+				312ED25A1D888B8800C52D3E /* Icon-20@3x.png in Resources */,
+				313546ED1D89CABE00635FB7 /* wrong.png in Resources */,
+				312ED27E1D888B8800C52D3E /* Icon-86@3x.png in Resources */,
+				312ED2801D888B8800C52D3E /* Icon-98@2x.png in Resources */,
+				312ED2641D888B8800C52D3E /* Icon-40.png in Resources */,
+				312ED2631D888B8800C52D3E /* Icon-29@3x.png in Resources */,
+				312ED2591D888B8800C52D3E /* Icon-20@2x.png in Resources */,
+				312ED2581D888B8800C52D3E /* Icon-20.png in Resources */,
 				31168B591D883B280062B4E8 /* Main.storyboard in Resources */,
+				312ED27D1D888B8800C52D3E /* Icon-86@2x.png in Resources */,
+				312ED2751D888B8800C52D3E /* Icon-72@3x.png in Resources */,
+				312ED25B1D888B8800C52D3E /* Icon-24.png in Resources */,
+				312ED2761D888B8800C52D3E /* Icon-76.png in Resources */,
+				312ED25E1D888B8800C52D3E /* Icon-27.5.png in Resources */,
+				312ED25C1D888B8800C52D3E /* Icon-24@2x.png in Resources */,
+				312ED2701D888B8800C52D3E /* Icon-60.png in Resources */,
+				312ED26A1D888B8800C52D3E /* Icon-512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,13 +457,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E2E77135D00F58F47B75482 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mathFlashCardsTests/Pods-mathFlashCardsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67BC993C8F731C5C50A3A9EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mathFlashCards/Pods-mathFlashCards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AFF321E6F701ADD71D8A5CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		962B1B1610F131215CA9CE0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C661B745C40318193F02B22A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mathFlashCards/Pods-mathFlashCards-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4F40DFE9AB985C39266EB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mathFlashCardsTests/Pods-mathFlashCardsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31168B4C1D883B280062B4E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				31168B5C1D883B280062B4E8 /* mathFlashCards.xcdatamodeld in Sources */,
+				312ED22B1D888ADC00C52D3E /* LoginController.swift in Sources */,
+				313546E91D89BAF100635FB7 /* QuestionViewController.swift in Sources */,
+				313546E51D899DEC00635FB7 /* CreateUserController.swift in Sources */,
 				31168B561D883B280062B4E8 /* ViewController.swift in Sources */,
+				313546E31D8996FD00635FB7 /* BaseService.swift in Sources */,
 				31168B541D883B280062B4E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,9 +698,14 @@
 		};
 		31168B711D883B290062B4E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C6A519CE0AA599584A8754 /* Pods-mathFlashCards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4S3VC3K23S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = mathFlashCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Scott-Courtney.mathFlashCards";
@@ -368,9 +716,14 @@
 		};
 		31168B721D883B290062B4E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BC98315FA0F0A65B55814B /* Pods-mathFlashCards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4S3VC3K23S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = mathFlashCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Scott-Courtney.mathFlashCards";
@@ -381,6 +734,7 @@
 		};
 		31168B741D883B290062B4E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0753AC27A61443C9A6ADC62A /* Pods-mathFlashCardsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -396,6 +750,7 @@
 		};
 		31168B751D883B290062B4E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6BF637731777D555C6E9C3 /* Pods-mathFlashCardsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -428,6 +783,7 @@
 				31168B721D883B290062B4E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31168B731D883B290062B4E8 /* Build configuration list for PBXNativeTarget "mathFlashCardsTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +792,7 @@
 				31168B751D883B290062B4E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
