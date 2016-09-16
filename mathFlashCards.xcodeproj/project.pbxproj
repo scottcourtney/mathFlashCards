@@ -64,6 +64,7 @@
 		313546E91D89BAF100635FB7 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313546E81D89BAF100635FB7 /* QuestionViewController.swift */; };
 		313546EC1D89CABE00635FB7 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 313546EA1D89CABE00635FB7 /* correct.png */; };
 		313546ED1D89CABE00635FB7 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 313546EB1D89CABE00635FB7 /* wrong.png */; };
+		318CEB511D8AED7500D7C039 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 318CEB501D8AED7500D7C039 /* GoogleService-Info.plist */; };
 		5E50F9E785470918E7F6A710 /* Pods_mathFlashCardsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D349453FAB07014AD9A876 /* Pods_mathFlashCardsTests.framework */; };
 		64F277F1DB9EDE66A035FD07 /* Pods_mathFlashCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F399D16B786142467756D4 /* Pods_mathFlashCards.framework */; };
 /* End PBXBuildFile section */
@@ -142,6 +143,7 @@
 		313546E81D89BAF100635FB7 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		313546EA1D89CABE00635FB7 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		313546EB1D89CABE00635FB7 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
+		318CEB501D8AED7500D7C039 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6A6BF637731777D555C6E9C3 /* Pods-mathFlashCardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mathFlashCardsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mathFlashCardsTests/Pods-mathFlashCardsTests.release.xcconfig"; sourceTree = "<group>"; };
 		B8F399D16B786142467756D4 /* Pods_mathFlashCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mathFlashCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BC98315FA0F0A65B55814B /* Pods-mathFlashCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mathFlashCards.release.xcconfig"; path = "Pods/Target Support Files/Pods-mathFlashCards/Pods-mathFlashCards.release.xcconfig"; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				313546E21D8996FD00635FB7 /* BaseService.swift */,
 				31168B621D883B280062B4E8 /* Info.plist */,
 				31168B5A1D883B280062B4E8 /* mathFlashCards.xcdatamodeld */,
+				318CEB501D8AED7500D7C039 /* GoogleService-Info.plist */,
 				312ED22C1D888B7400C52D3E /* Resources */,
 			);
 			path = mathFlashCards;
@@ -414,6 +417,7 @@
 				312ED2681D888B8800C52D3E /* Icon-50@2x.png in Resources */,
 				312ED2601D888B8800C52D3E /* Icon-27.5@3x.png in Resources */,
 				31168B611D883B280062B4E8 /* LaunchScreen.storyboard in Resources */,
+				318CEB511D8AED7500D7C039 /* GoogleService-Info.plist in Resources */,
 				312ED2741D888B8800C52D3E /* Icon-72@2x.png in Resources */,
 				312ED2781D888B8800C52D3E /* Icon-76@3x.png in Resources */,
 				312ED2661D888B8800C52D3E /* Icon-40@3x.png in Resources */,

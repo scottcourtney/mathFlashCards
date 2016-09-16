@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class CreateUserController: UIViewController {
 
@@ -36,32 +38,33 @@ class CreateUserController: UIViewController {
     */
 
     @IBAction func createAccountAction(_ sender: AnyObject) {
-//        let username = self.usernameTextField.text
-//        let password = self.passwordTextField.text
-//        
-//        if username != "" && password != "" {
-//            FIREBASE_REF.createUser(username, password: password, withValueCompletionBlock: { (error, authData) -> Void in
-//                if error == nil {
-//                    FIREBASE_REF.authUser(username, password: password, withCompletionBlock: { (error, authData) -> Void in
-//                        if error == nil {
-//                            UserDefaults.standard.setValue(authData.uid, forKey: "uid")
-//                            print("Account Created")
-//                            self.dismiss(animated: true, completion: nil)
-//                        } else {
-//                            print(error)
-//                        }
-//                })
-//                        } else {
-//                            print(error)
-//                }
-//            })
-//        } else {
-//            let alert = UIAlertController(title: "ERROR", message: "Enter Username and Password", preferredStyle: .alert)
-//            let action = UIAlertAction(title: "OK", style: .default, handler: nil)
-//            
-//            alert.addAction(action)
-//            self.present(alert, animated: true, completion: nil)
-//        }
+        let username = self.usernameTextField.text
+        let password = self.passwordTextField.text
+        
+        if username != "" && password != "" {
+            
+            FIRAuth.auth()!.createUser(withEmail: username!, password: password!) { (user, error) -> Void in
+                if error == nil {
+                    FIRAuth.auth()?.signIn(withEmail: username!, password: password!) { (user, error) -> Void in
+                        if error == nil {
+                            UserDefaults.standard.setValue(user?.uid, forKey: "uid")
+                            print("Account Created")
+                            self.dismiss(animated: true, completion: nil)
+                        } else {
+                            print(error)
+                        }
+                }
+                        } else {
+                            print(error)
+                }
+            }
+        } else {
+            let alert = UIAlertController(title: "ERROR", message: "Enter Username and Password", preferredStyle: .alert)
+            let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        
+            alert.addAction(action)
+            self.present(alert, animated: true, completion: nil)
+        }
     }
     @IBAction func cancelAccountAction(_ sender: AnyObject) {
         self.dismiss(animated: true, completion: nil)

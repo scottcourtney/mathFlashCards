@@ -9,7 +9,7 @@
 import UIKit
 
 class QuestionViewController: UIViewController {
-
+    
     @IBOutlet weak var Image: UIImageView!
     @IBOutlet weak var Number1: UILabel!
     @IBOutlet weak var Sign: UILabel!
@@ -28,7 +28,7 @@ class QuestionViewController: UIViewController {
         Hide()
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -36,15 +36,11 @@ class QuestionViewController: UIViewController {
     
     
     func randomQuestion() {
-        var randomNumber = arc4random() % 1
-        randomNumber += 1
+        
         let num1 = Int(arc4random_uniform(20))
         let num2 = Int(arc4random_uniform(20))
         let answer = num1 + num2
-        let answer2 = answer + 1
-        let answer3 = answer - 1
-        let answer4 = answer + 2
-        let answers = [answer, answer2, answer3, answer4]
+        let answers = [answer, answer + 1, answer - 1, answer + 2]
         let randomAnswer1 = Int(arc4random_uniform(UInt32(answers.count)))
         let randomAnswer2 = Int(arc4random_uniform(UInt32(answers.count)))
         let randomAnswer3 = Int(arc4random_uniform(UInt32(answers.count)))
@@ -85,7 +81,7 @@ class QuestionViewController: UIViewController {
     @IBAction func Button1(_ sender: AnyObject) {
         Show()
         
-        if (CorrectAnswer == Button1.currentTitle){
+        if (CorrectAnswer == String(describing: Button1.currentTitle!)){
             Image.image = UIImage(named: ("correct.png"))
         }
         else {
@@ -97,19 +93,19 @@ class QuestionViewController: UIViewController {
     @IBAction func Button2(_ sender: AnyObject) {
         Show()
         
-        if (CorrectAnswer == Button2.currentTitle){
+        if (CorrectAnswer == String(describing: Button2.currentTitle!)){
             Image.image = UIImage(named: ("correct.png"))
         }
         else {
             Image.image = UIImage(named: ("wrong.png"))
             Reload()
         }
-
+        
     }
     @IBAction func Button3(_ sender: AnyObject) {
         Show()
         
-        if (CorrectAnswer == Button3.currentTitle){
+        if (CorrectAnswer == String(describing: Button3.currentTitle!)){
             Image.image = UIImage(named: ("correct.png"))
         }
         else {
@@ -120,7 +116,7 @@ class QuestionViewController: UIViewController {
     @IBAction func Button4(_ sender: AnyObject) {
         Show()
         
-        if (CorrectAnswer == Button4.currentTitle){
+        if (CorrectAnswer == String(describing: Button4.currentTitle!)){
             Image.image = UIImage(named: ("correct.png"))
         }
         else {

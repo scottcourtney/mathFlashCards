@@ -37,7 +37,6 @@
                                 <state key="normal" title="Sign In"/>
                                 <connections>
                                     <action selector="loginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJ4-br-Uky"/>
-                                    <segue destination="O2G-hP-FZH" kind="presentation" id="NBn-k6-S0g"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Geg-6D-qY0">
@@ -45,6 +44,9 @@
                                     <constraint firstAttribute="height" constant="45" id="say-aq-3R2"/>
                                 </constraints>
                                 <state key="normal" title="Create Account"/>
+                                <connections>
+                                    <segue destination="T7r-gL-SWw" kind="presentation" id="c2f-Vg-veQ"/>
+                                </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1LS-uA-d8Q">
                                 <constraints>
@@ -78,11 +80,12 @@
                         <outlet property="logoutButton" destination="1LS-uA-d8Q" id="Cey-qb-sfl"/>
                         <outlet property="passwordTextField" destination="kOb-3X-lxg" id="pjJ-ua-tpr"/>
                         <outlet property="usernameTextField" destination="usP-gv-fT4" id="pv7-Ze-G1T"/>
+                        <segue destination="O2G-hP-FZH" kind="show" id="9hI-kJ-Vo8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133.59999999999999" y="120.98950524737631"/>
+            <point key="canvasLocation" x="103" y="121"/>
         </scene>
         <!--SignUp Controller-->
         <scene sceneID="Rlm-rp-PAz">
@@ -159,7 +162,7 @@
         <!--Math Picker Controller-->
         <scene sceneID="FW4-TD-ikE">
             <objects>
-                <viewController id="O2G-hP-FZH" userLabel="Math Picker Controller" customClass="ViewController" customModule="mathFlashCards" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MathPickerController" id="O2G-hP-FZH" userLabel="Math Picker Controller" customClass="ViewController" customModule="mathFlashCards" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="suo-VF-DwV"/>
                         <viewControllerLayoutGuide type="bottom" id="H2h-Qs-HIo"/>
@@ -192,14 +195,28 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8J-ne-cWh">
                                 <state key="normal" title="DIVISION"/>
                             </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgf-iC-Y01">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="bwD-jY-0EW"/>
+                                    <constraint firstAttribute="width" constant="134" id="lEY-9S-Cnk"/>
+                                </constraints>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="Logout:" destination="O2G-hP-FZH" eventType="touchUpInside" id="gw8-Sh-eVo"/>
+                                    <action selector="logoutAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CbJ-sQ-DjD"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="lTQ-oa-ykI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Ywy-tH-QiW" firstAttribute="top" secondItem="1Hk-9P-z9p" secondAttribute="bottom" constant="36" id="2fu-3n-gly"/>
                             <constraint firstItem="Ywy-tH-QiW" firstAttribute="leading" secondItem="1Hk-9P-z9p" secondAttribute="leading" id="41x-jA-Ne2"/>
+                            <constraint firstItem="H2h-Qs-HIo" firstAttribute="top" secondItem="Jgf-iC-Y01" secondAttribute="bottom" constant="40" id="688-xb-dsg"/>
                             <constraint firstItem="Ywy-tH-QiW" firstAttribute="trailing" secondItem="FUy-yg-FJj" secondAttribute="trailing" id="BhC-ch-kqD"/>
                             <constraint firstItem="Ywy-tH-QiW" firstAttribute="leading" secondItem="l8J-ne-cWh" secondAttribute="leading" id="LMX-mr-sRA"/>
                             <constraint firstItem="H2h-Qs-HIo" firstAttribute="top" secondItem="l8J-ne-cWh" secondAttribute="bottom" constant="161" id="N3q-Mk-brD"/>
+                            <constraint firstItem="Jgf-iC-Y01" firstAttribute="centerX" secondItem="iJX-uw-y88" secondAttribute="centerX" id="TpI-SK-qMU"/>
                             <constraint firstItem="FUy-yg-FJj" firstAttribute="top" secondItem="Ywy-tH-QiW" secondAttribute="bottom" constant="35" id="bxs-Ff-3wk"/>
                             <constraint firstItem="Ywy-tH-QiW" firstAttribute="trailing" secondItem="1Hk-9P-z9p" secondAttribute="trailing" id="guZ-hd-aqN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ywy-tH-QiW" secondAttribute="trailing" constant="56" id="hjC-W8-zw5"/>
@@ -210,6 +227,9 @@
                             <constraint firstItem="Ywy-tH-QiW" firstAttribute="top" secondItem="iJX-uw-y88" secondAttribute="top" constant="214" id="wV0-9w-d2a"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="logoutButton" destination="Jgf-iC-Y01" id="I3z-Jo-9b7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lhd-xr-0cv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -233,6 +253,9 @@
                                     <constraint firstAttribute="height" constant="46" id="teI-kO-H0t"/>
                                 </constraints>
                                 <state key="normal" title="Main Menu"/>
+                                <connections>
+                                    <segue destination="O2G-hP-FZH" kind="show" id="ezq-bA-Te8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="num1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56B-as-pbk">
                                 <constraints>
@@ -350,4 +373,7 @@
             <point key="canvasLocation" x="1493.5999999999999" y="120.98950524737631"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ezq-bA-Te8"/>
+    </inferredMetricsTieBreakers>
 </document>
